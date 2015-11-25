@@ -1,0 +1,15 @@
+<assembly>
+    <id>examples</id>
+    <formats>
+        <format>dir</format>
+        <format>jar</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+
+    <fileSets>
+        <fileSet>
+            <directory>${basedir}/src/main/java</directory>
+            <outputDirectory>/webapp/webapp/WEB-INF/lib</outputDirectory>
+        </fileSet>
+    </fileSets>
+</assembly>
